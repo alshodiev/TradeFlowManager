@@ -13,7 +13,7 @@ trading_system/
 │   │   ├── test_broker.py
 │   │   ├── test_risk.py
 │   │   └── test_position.py
-│   └── trading_system/
+│   └── system/
 │       ├── __init__.py
 │       ├── api/
 │       │   ├── __init__.py
@@ -24,7 +24,11 @@ trading_system/
 │       │   └── settings.py
 │       ├── core/
 │       │   ├── __init__.py
-│       │   └── settings.py
+│       │   └── exceptions.py
+│       │   └── io.py
+│       │   └── trade_confirmation.py
+│       │   └── utils.py
+│       │   └── models.py
 │       ├── market_data/
 │       │   ├── __init__.py
 │       │   ├── feed_handlers.py
@@ -37,11 +41,12 @@ trading_system/
 │       ├── execution/
 │       │   ├── __init__.py
 │       │   ├── broker.py
-│       │   ├── order_types.py
-│       │   └── smart_router.py
+│       │   ├── order.py
+│       │   ├── smart_router.py
+│       │   └── position_manager.py
 │       ├── position/
-│       │  ├── __init__.py
-│       │  └── position_manager.py
+│       │   ├── __init__.py
+│       │   ├── strategy.py
 │       ├── database/
 │       └── ui/
 ├── frontend/
