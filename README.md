@@ -1,8 +1,8 @@
 # TradeFlowManager
 Core Workflow: Strategy → Target Positions → Position Manager → Broker → Orders → Trade Confirmations → Update Positions
 
-**Repo Structure**
-
+## Repo Structure
+```
 trading_system/
 ├── backend/
 │   ├── README.md
@@ -82,3 +82,4 @@ trading_system/
 │       └── test_market_data_latency.py
 ├── README.md
 └── run.py
+```
