@@ -7,7 +7,7 @@ __all__ = [
     "Order",
     "PositionManager",
     "Strategy",
-    "Event"
+    "Event",
     "TradeConfirmation",
     "bs_str",
     "bs_int",

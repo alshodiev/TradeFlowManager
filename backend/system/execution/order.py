@@ -5,7 +5,7 @@ from time import sleep
 from logging import getLogger
 from typing import Callable
 from logging import basicConfig
-from core import *
+from system.core import *
 
 
 basicConfig(level=os.environ.get("LOGLEVEL", "DEBUG"))

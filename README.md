@@ -10,9 +10,11 @@ trading_system/
 │   ├── setup.py
 │   ├── tests/                     # Backend-specific unit tests
 │   │   ├── __init__.py
+│   │   ├── test_integration.py
 │   │   ├── test_broker.py
 │   │   ├── test_risk.py
-│   │   └── test_position.py
+│   │   ├── test_market_data.py
+│   │   └── test_position_manager.py
 │   └── system/
 │       ├── __init__.py
 │       ├── api/

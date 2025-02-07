@@ -11,8 +11,8 @@ from collections import defaultdict
 from logging import getLogger, basicConfig
 from queue import LifoQueue
 from typing import Callable
-from core import *
-from broker import Broker
+from system.core import *
+from .broker import Broker
 
 basicConfig(level=os.environ.get("LOGLEVEL", "DEBUG"))
 
